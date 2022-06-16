@@ -1,0 +1,166 @@
+.modal {
+  position: fixed; 
+  top: 0;
+  bottom: 0; 
+  width: 100%; 
+  height: 100%; 
+  z-index: 100 !important;
+}
+
+.modalBackground {
+  width: 100%; 
+  height: 100%; 
+  background-color: black;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.modalText {
+  margin: 5%;
+  width: 89.5%;
+  height: 75%;
+}
+
+.modalContainer {
+  position: fixed;
+  height: 60%;
+  width: 40%;
+  top: 20%;
+  right: 30%;
+  background-color: #4b4b4b;
+  z-index: 2;
+  border-radius: 0.7vw;
+}
+
+.modalButton {
+  margin-top: 0 !important;
+}
+
+.header {
+  background-color: rgb(65, 65, 65);
+  margin: 0;
+  width: 100vw;
+  height: 10vh;
+  text-align: left;
+}
+
+.headerText {
+  width: 50%;
+  color: white;
+  margin: 0;
+  padding: 3vh;
+  font-family: sans-serif;
+}
+
+.mainPanel {
+  position: relative;
+  background-color: rgb(33, 33, 33);
+  margin: 0;
+  padding-top: 10vh;
+  height: 70vh;
+  white-space: nowrap;
+  overflow-x: scroll;
+  color: white;
+  font-size: 500%;
+  user-select: none;
+}
+
+.mainPanelContainer {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: inline-block;
+  font-family: monospace;
+}
+
+.selectedTab {
+  color: red;
+}
+
+.borderTab {
+  color: rgb(255, 247, 134);
+}
+
+.mainPanelRuler {
+  font-size: 50%;
+  white-space: break-spaces;
+  color:rgb(146, 146, 146)
+}
+
+.footer {
+  background-color: rgb(57, 57, 57);
+  margin: 0;
+  width: 100vw;
+  height: 10vh;
+}
+
+.footerInput {
+  float: left;
+  margin-top: 3vh;
+  margin-left: 2vw;
+  width: 7vw;
+  background-color: rgb(24, 24, 24);
+  border: none;
+  border-radius: 0.3vh;
+  height: 4vh;
+  color: white;
+  font-size: larger;
+}
+
+.saveInput {
+  float: right;
+}
+
+.footerButton {
+  float: left;
+  margin-top: 3vh;
+  margin-left: 2vw;
+  background-color: rgb(24, 24, 24);
+  color: white;
+  border-radius: 0.3vh;
+  height: 4vh;
+  width: 5vw;
+}
+
+.footerButton:hover {
+  background-color: rgb(46, 46, 46);
+}
+
+
+.footerButton:active {
+  background-color: rgb(120, 120, 120);
+}
+
+.footerSave {
+  float: right;
+  margin-right: 2vw;
+}
+
+.gitIcon {
+  float: right;
+  width: 3.6vw;
+  height: 3.6vw;
+  position: absolute;
+  right: 1vw;
+  top: 1vh;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #666666;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(58, 58, 58);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(50, 50, 50);
+}
