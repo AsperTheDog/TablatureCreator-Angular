@@ -10,7 +10,7 @@
 .modalBackground {
   width: 100%; 
   height: 100%; 
-  background-color: black;
+  background-color: rgb(255, 255, 255);
   opacity: 0.7;
   z-index: 1;
 }
@@ -27,7 +27,7 @@
   width: 40%;
   top: 20%;
   right: 30%;
-  background-color: #4b4b4b;
+  background-color: #c5c4c4;
   z-index: 2;
   border-radius: 0.7vw;
 }
@@ -37,7 +37,7 @@
 }
 
 .header {
-  background-color: rgb(65, 65, 65);
+  background-color: rgb(186, 186, 186);
   margin: 0;
   width: 100vw;
   height: 10vh;
@@ -46,7 +46,7 @@
 
 .headerText {
   width: 50%;
-  color: white;
+  color: rgb(0, 0, 0);
   margin: 0;
   padding: 3vh;
   font-family: sans-serif;
@@ -54,13 +54,13 @@
 
 .mainPanel {
   position: relative;
-  background-color: rgb(33, 33, 33);
+  background-color: rgb(234, 234, 234);
   margin: 0;
   padding-top: 10vh;
   height: 70vh;
   white-space: nowrap;
   overflow-x: scroll;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 500%;
   user-select: none;
 }
@@ -73,21 +73,21 @@
 }
 
 .selectedTab {
-  color: red;
+  color: rgb(255, 0, 0);
 }
 
 .borderTab {
-  color: rgb(255, 247, 134);
+  color: rgb(161, 161, 161);
 }
 
 .mainPanelRuler {
   font-size: 50%;
   white-space: break-spaces;
-  color:rgb(146, 146, 146)
+  color:rgb(108, 108, 108)
 }
 
 .footer {
-  background-color: rgb(57, 57, 57);
+  background-color: rgb(197, 197, 197);
   margin: 0;
   width: 100vw;
   height: 10vh;
@@ -98,11 +98,11 @@
   margin-top: 3vh;
   margin-left: 2vw;
   width: 7vw;
-  background-color: rgb(24, 24, 24);
+  background-color: rgb(235, 235, 235);
   border: none;
   border-radius: 0.3vh;
   height: 4vh;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: larger;
 }
 
@@ -114,20 +114,21 @@
   float: left;
   margin-top: 3vh;
   margin-left: 2vw;
-  background-color: rgb(24, 24, 24);
-  color: white;
+  background-color: rgb(235, 235, 235);
+  color: rgb(0, 0, 0);
   border-radius: 0.3vh;
   height: 4vh;
   width: 5vw;
+  border: none;
 }
 
 .footerButton:hover {
-  background-color: rgb(46, 46, 46);
+  background-color: rgb(218, 218, 218);
 }
 
 
 .footerButton:active {
-  background-color: rgb(120, 120, 120);
+  background-color: rgb(163, 163, 163);
 }
 
 .footerSave {
@@ -152,15 +153,15 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #666666;
+  background: #a4a4a4;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(58, 58, 58);
+  background: rgb(191, 191, 191);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(50, 50, 50);
+  background: rgb(216, 216, 216);
 }
